@@ -10,9 +10,12 @@ const App = () => {
        <Connection />
        <Main />
       </div>
+      <div className="d-none-for-m">
       <Services />
       <Transactions />
       <Footer />
+      </div>
+     
       
     </div>
   )

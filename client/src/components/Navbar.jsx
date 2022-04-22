@@ -13,8 +13,8 @@ const NavbarItem = ({ title, classProps }) => {
     }
 
     const onHandleClickNavbarItem = () => {
-        if(title === 'Tutorials'){
-            openInNewTab('https://www.coinbase.com/learn/tips-and-tutorials')
+        if(title === 'NFTs'){
+            
         }
 
         if(title === 'Buy ETH'){
@@ -42,12 +42,12 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className='w-40 cursor-pointer' />
             </div>
             <ul className="md:flex hidden list-none flex-row justify-between items-center flex-initial">
-                {["Buy ETH", "Tutorials", "News"].map((item, index) => (
+                {["Buy ETH", "NFTs", "News"].map((item, index) => (
                     <NavbarItem key={item + index} title={item} />
                 ))}
 
                 <li className='text-white bg-[#BE1931] py-2 px-7 mx-4 rounded-full curdor-pointer hover:bg-[#CE1931]'>
-                    <button>Login</button>
+                    <button>Wallet</button>
                 </li>
             </ul>
             <div className='flex-relative'>
@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li className='text-xl w-full my-2'>
                             <AiOutlineClose onClick={() => setToggleMenu(false)} />
                         </li>
-                        {["Buy ETH", "Tutorials", "News"].map((item, index) => (
+                        {["Buy ETH", "NFTs", "News"].map((item, index) => (
                             <NavbarItem key={item + index} title={item} classProps="my-2 text-lg" />
                         ))}
                     </ul>

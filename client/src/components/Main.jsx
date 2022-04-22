@@ -27,8 +27,8 @@ const Main = () => {
             <div className="flex mf:flex-row flex-col items-center justify-between md:px-10 py-12 px-4">
                 
 
-                <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
-                    <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glass-style ">
+                <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-5">
+                    <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card ">
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-start">
                                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
@@ -49,7 +49,7 @@ const Main = () => {
                     <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center red-glass-style">
                         <Input placeholder="Address To" name="addressTo" type="text" handleChange={() => { }} />
                         <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={() => { }} />
-                        <Input placeholder="NFT's Keyword" name="keyword" type="text" handleChange={() => { }} />
+                        <Input placeholder="NFT's ID" name="keyword" type="text" handleChange={() => { }} />
                         <Input placeholder="Enter Your Message" name="message" type="text" handleChange={() => { }} />
 
                         <div className="h-[1px] w-full bg-[#BE1931] my-2" />

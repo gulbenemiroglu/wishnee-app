@@ -52,7 +52,7 @@ const Connection = () => {
                         </div>
                         <div className={` ${commonStyles} m-3`}>
                             <img src="./images/logo2.png" alt="" />
-                            <p className="pl-2">Gift</p>
+                            <p className="pl-2">NFTs</p>
 
                         </div>
                     </div>
